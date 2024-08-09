@@ -14,3 +14,9 @@ Think Clean" is a web application currently in development, designed to organize
 1. Organize Cleaning Drives: Plan and schedule community cleaning events.
 2. Educational Resources: Provide information and tips on environmental cleaning practices.
 3. Interactive Interface: User-friendly design for easy navigation and engagement.
+
+## Screenshot
+
+![header](src/assets/Screenshots/screenshot1.png)
+
+![header](src/assets/Screenshots/screenshot2.png)

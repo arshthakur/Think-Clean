@@ -57,7 +57,7 @@ const Header = () => {
       </ul>
       <div>
         <button className="mr-10 hover:bg-gray-100  rounded-3xl px-3 py-1 text-center font-normal text-green-500 border-solid border-2 hover:text-gray-400 border-green-300 ">
-          Join us
+          Donate
         </button>
       </div>
     </div>

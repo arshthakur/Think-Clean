@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-600 h-auto flex flex-col items-center bg-[url('../src/assets/logo.png')] bg-no-repeat  bg-center">
+    <div className="bg-gray-600 h-auto  flex flex-col items-center bg-[url('../src/assets/logo.png')] bg-no-repeat  bg-center">
       <div className="flex flex-row  justify-between w-4/5 py-9">
         <div>
           <div>

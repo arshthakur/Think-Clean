@@ -3,14 +3,23 @@ import { assets } from "../../assets/assets";
 
 const Home = () => {
   return (
-    <div className="bg-[url('./src/assets/img2.jpg')] bg-cover w-4/5 justify-center rounded-lg h-screen relative">
-      <p>
-        Discover an exquisite selection of dishes, each crafted with premium
-        ingredients and culinary mastery. Whether you’re craving comfort food or
-        gourmet delights, our mission is to tantalize your taste buds and
-        transform every meal into a memorable experience. Satisfy your cravings
-        and elevate your dining journey with us, one delightful bite at a time.
-      </p>
+    <div class="relative w-full my-7 mx-auto h-full">
+      <img
+        src={assets.img6}
+        alt="Image"
+        class="w-full min-w-80 h-full object-cover"
+      />
+      <div class="absolute ml-6 p-4 inset-0  min-w-80 w-1/2 mt-12 text-white">
+        <p class="text-5xl font-medium opacity-90  ">
+          It is our collective and individual responsibility to protect and
+          nurture the global family, to support its weaker members, and to
+          preserve and tend to the environment in which we all live
+        </p>
+        <button className=" py-2 font-medium outline-none  px-8  opacity-80 text-xl rounded-2xl mt-8  bg-white text-gray-500 shadow-md hover:bg-green-500 hover:text-white">
+          Donate
+        </button>
+      </div>
+      <div></div>
     </div>
   );
 };
